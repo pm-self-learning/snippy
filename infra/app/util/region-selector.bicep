@@ -68,7 +68,7 @@ var flexConsumptionRegionMap = {
     'southeastasia', 'swedencentral', 'uksouth', 'westcentralus', 'westus2', 'westus3'
   ]
   overrides: {
-    westus: 'westus2'
+    westus: 'westus'
   }
   default: 'westus2'
 }

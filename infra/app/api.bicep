@@ -29,7 +29,7 @@ var applicationInsightsIdentity = 'ClientId=${identityClientId};Authorization=AA
 module appServicePlan 'br/public:avm/res/web/serverfarm:0.1.1' = {
   name: 'appserviceplan'
   params: {
-    name: '${abbrs.webServerFarms}${resourceToken}'
+    name: '${abbrs.webServerFarms}'
     location: regionSelector.getFlexConsumptionRegion(location)
     tags: tags
     sku: {
